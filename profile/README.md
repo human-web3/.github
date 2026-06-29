@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../assets/banner.png" alt="human — Real people. Real opinions. Anonymous by design." width="100%" />
+<img src="../assets/banner.png" alt="human - Real people. Real opinions. Anonymous by design." width="100%" />
 
 <br /><br />
 
@@ -15,36 +15,36 @@
 
 ### 👋 Bienvenidos a ACRC-Zk
 
-Estamos construyendo **human** — la comunidad donde personas **reales y verificadas** dicen lo que no se animan a decir con su nombre, bajo un **seudónimo anónimo** que protege tu identidad real por diseño.
+Estamos construyendo **human** - la comunidad donde personas **reales y verificadas** dicen lo que no se animan a decir con su nombre, bajo un **seudónimo anónimo** que protege tu identidad real por diseño.
 
-Hoy elegís entre dos males: o te exponés con tu nombre, o no sabés a quién le creés en el anónimo. Reddit y los foros están llenos de bots; cada plataforma guarda una copia de tus datos. **human** te da las dos cosas que importan: **confianza y protección a la vez** — probás que sos una persona real y única, con privacidad criptográfica, no solo “confiá en nosotros”.
+Hoy elegís entre dos males: o te exponés con tu nombre, o no sabés a quién le creés en el anónimo. Reddit y los foros están llenos de bots; cada plataforma guarda una copia de tus datos. **human** te da las dos cosas que importan: **confianza y protección a la vez** - probás que sos una persona real y única, con privacidad criptográfica, no solo “confiá en nosotros”.
 
-Construido sobre **Stellar** (Soroban + pruebas ZK Groth16) para el **PULSO Hackathon**. El repositorio abierto es el monorepo **beHuman** — verificación en testnet hoy, infraestructura de personhood para todo el ecosistema mañana.
+Construido sobre **Stellar** (Soroban + pruebas ZK Groth16) para el **PULSO Hackathon**. El repositorio abierto es el monorepo **human** - verificación en testnet hoy, infraestructura de personhood para todo el ecosistema mañana.
 
 ### ⭐️ Nuestro proyecto
 
 | Proyecto | Descripción |
 | :--- | :--- |
-| [**🧑‍🤝‍🧑 beHuman**][repo-link] | Monorepo completo: KYC-ZK en el navegador, contratos Soroban, plataforma de opinión anónima, curaduría IA + moderación humana, funding ZK exploratorio. Verificación en vivo en testnet · feed de personas verificadas · anti-Sybil: 1 humano = 1 cuenta. [![][app-shield]][app-link] [![][contract-shield]][contract-link] |
+| [**🧑‍🤝‍🧑 human**][repo-link] | Monorepo completo: KYC-ZK en el navegador, contratos Soroban, plataforma de opinión anónima, curaduría IA + moderación humana, funding ZK exploratorio. Verificación en vivo en testnet · feed de personas verificadas · anti-Sybil: 1 humano = 1 cuenta. [![][app-shield]][app-link] [![][contract-shield]][contract-link] |
 
 ### 📦 Ecosistema (monorepo)
 
 | Carpeta / paquete | Propósito | Capa | Lenguaje |
 | :--- | :--- | :---: | :---: |
-| [**beHuman**][repo-link] | Monorepo único — identidad, plataforma, funding, web, SDK | — | — |
-| `identity/circuits/` | Circuito Circom `kyc.circom` — commitment, nullifier, issuer root (BLS12-381) | 1 | ![][lang-circom] |
+| [**human**][repo-link] | Monorepo único - identidad, plataforma, funding, web, SDK | - | - |
+| `identity/circuits/` | Circuito Circom `kyc.circom` - commitment, nullifier, issuer root (BLS12-381) | 1 | ![][lang-circom] |
 | `identity/contracts/kyc_verifier/` | Soroban: `verify_and_register`, `is_verified(address)` ← **el puente** | 1 | ![][lang-rust] |
 | `identity/issuer/` | Issuer KYC **mock** (firma credenciales; no es KYC real) | 1 | ![][lang-typescript] |
-| `platform/circuits/` | Circuito `post.circom` — identidad anónima `platformId` + binding de contenido | 2 | ![][lang-circom] |
+| `platform/circuits/` | Circuito `post.circom` - identidad anónima `platformId` + binding de contenido | 2 | ![][lang-circom] |
 | `platform/contracts/opinion_board/` | Soroban: ancla on-chain (autor verificado + hash del post) | 2 | ![][lang-rust] |
 | `platform/api/` | Backend: feed, posts, perfiles, contenido off-chain | 2 | ![][lang-typescript] |
 | `platform/curation/` | Agentes validadores (Claude API) + cola de moderación humana | 2 | ![][lang-typescript] |
-| `funding/circuits/` | `funding_opinion.circom` — opinión anónima por campaña (nullifier scopeado) | 3 | ![][lang-circom] |
+| `funding/circuits/` | `funding_opinion.circom` - opinión anónima por campaña (nullifier scopeado) | 3 | ![][lang-circom] |
 | `funding/contracts/campaign_controller/` | Soroban no-custodial: donación, release 2-de-3, refund todo-o-nada | 3 | ![][lang-rust] |
 | `funding/api/` | Orquestación DeFindex (yield) + Trustless Work (escrow) | 3 | ![][lang-typescript] |
-| `packages/sdk/` | Prover + orquestación de tx Stellar (compartido) | — | ![][lang-typescript] |
-| `packages/shared/` | Tipos TS compartidos (identidad + plataforma + funding) | — | ![][lang-typescript] |
-| `web/` | Frontend único React + Vite — landing, KYC, feed, causas | — | ![][lang-typescript] |
+| `packages/sdk/` | Prover + orquestación de tx Stellar (compartido) | - | ![][lang-typescript] |
+| `packages/shared/` | Tipos TS compartidos (identidad + plataforma + funding) | - | ![][lang-typescript] |
+| `web/` | Frontend único React + Vite - landing, KYC, feed, causas | - | ![][lang-typescript] |
 
 ### 🏗️ Cómo encaja todo
 
@@ -95,16 +95,16 @@ Construido sobre **Stellar** (Soroban + pruebas ZK Groth16) para el **PULSO Hack
 
 **Tagline:** *"Hablá con la verdad. Sin que te cueste caro."*
 
-**La ventaja:** Reddit no sabe si sos humano. X te hace elegir entre exponerte o un check que no prueba nada. Nadie junta las dos cosas que importan — **human sí**.
+**La ventaja:** Reddit no sabe si sos humano. X te hace elegir entre exponerte o un check que no prueba nada. Nadie junta las dos cosas que importan - **human sí**.
 
 ### ⚔️ Producto (estado actual)
 
 - **Verificación ZK:** documento argentino + rostro en vivo → prueba Groth16 en el navegador → registro en Soroban testnet.
-- **Anti-Sybil:** nullifier on-chain — una persona, una identidad; sin bots ni granjas de cuentas.
+- **Anti-Sybil:** nullifier on-chain - una persona, una identidad; sin bots ni granjas de cuentas.
 - **Plataforma anónima:** feed de personas verificadas, opiniones, artículos, estudios, hilos y mensajes bajo `platformId`.
 - **Seudónimo estable:** continuidad y reputación sin revelar PII; handle público derivado del `platformId`.
-- **Curaduría:** agente IA (primer filtro) + moderación humana (casos ambiguos) — respeto sin censura de ideas legítimas.
-- **Acceso simple:** con **Pollar** — del login social al pago en Stellar, sin wallet obligatoria al inicio.
+- **Curaduría:** agente IA (primer filtro) + moderación humana (casos ambiguos) - respeto sin censura de ideas legítimas.
+- **Acceso simple:** con **Pollar** - del login social al pago en Stellar, sin wallet obligatoria al inicio.
 - **Funding ZK (exploratorio):** donación y opinión anónima por campaña con reglas on-chain (release 2-de-3, refund todo-o-nada).
 - **i18n:** español e inglés en la web.
 
@@ -141,7 +141,7 @@ Hoy validamos el problema. Cuando escalemos, dos motores:
 | Segmento | Modelo |
 | :--- | :--- |
 | **B2C · usuarios** | Suscripción premium estilo X: perfil destacado, mayor alcance, herramientas para quienes opinan en serio |
-| **B2B · ecosistema** | Verificación como servicio — otras apps de Stellar pagan por usar el kit de personhood (`is_verified`) |
+| **B2B · ecosistema** | Verificación como servicio - otras apps de Stellar pagan por usar el kit de personhood (`is_verified`) |
 
 También exploramos: artículos con sello de veracidad · comisión sobre apoyo a causas.
 
@@ -149,18 +149,18 @@ También exploramos: artículos con sello de veracidad · comisión sobre apoyo 
 
 - **Argentina primero:** documento local, entrevistas con usuarios de la región, mercado que entendemos de verdad.
 - **El dolor es universal:** casi todos alguna vez nos callamos algo por miedo a que quede con nuestro nombre.
-- **Latinoamérica después:** +450M de personas con internet comparten el mismo problema — mismo producto, más mercado.
+- **Latinoamérica después:** +450M de personas con internet comparten el mismo problema - mismo producto, más mercado.
 
 ### 🙋 El ask
 
 No te pedimos plata. Te pedimos tu opinión.
 
-1. **Registrate** — entrá y verificate en un minuto. Una persona, una identidad anónima.
-2. **Probá la app** — publicá una opinión, recorré el feed, sentí lo que se siente hablar sin exponerte.
-3. **Danos feedback** — qué falla, qué falta, a quién se lo recomendarías.
+1. **Registrate** - entrá y verificate en un minuto. Una persona, una identidad anónima.
+2. **Probá la app** - publicá una opinión, recorré el feed, sentí lo que se siente hablar sin exponerte.
+3. **Danos feedback** - qué falla, qué falta, a quién se lo recomendarías.
 
 ```bash
-git clone https://github.com/ACRC-Zk/beHuman.git && cd beHuman
+git clone https://github.com/ACRC-Zk/human.git && cd human
 npm install
 npm run dev                    # web en http://localhost:5173
 make contracts-build         # contratos Soroban
@@ -168,12 +168,12 @@ make contracts-build         # contratos Soroban
 
 ### 🤝 Contributing
 
-Aceptamos PRs, issues y feedback de producto en [beHuman][repo-link].
+Aceptamos PRs, issues y feedback de producto en [human][repo-link].
 
-- **Cripto / contratos** — `identity/contracts`, `platform/contracts`, `funding/contracts` (revisión humana obligatoria en nullifier, address binding, issuer root).
-- **Circuitos ZK** — Circom + Groth16 BLS12-381 en `identity/circuits`, `platform/circuits`, `funding/circuits`.
-- **Plataforma** — feed, API, curaduría en `platform/` y `web/src/`.
-- **Docs de diseño** — vault Obsidian hermana (`obsidian-vault-zk`); este repo es solo código.
+- **Cripto / contratos** - `identity/contracts`, `platform/contracts`, `funding/contracts` (revisión humana obligatoria en nullifier, address binding, issuer root).
+- **Circuitos ZK** - Circom + Groth16 BLS12-381 en `identity/circuits`, `platform/circuits`, `funding/circuits`.
+- **Plataforma** - feed, API, curaduría en `platform/` y `web/src/`.
+- **Docs de diseño** - vault Obsidian hermana (`obsidian-vault-zk`); este repo es solo código.
 
 Antes de tocar contratos: leé [developers.stellar.org](https://developers.stellar.org) y la skill **zk-proofs** (Groth16 + BLS12-381).
 
@@ -185,16 +185,16 @@ Pendiente de definir por repositorio. Hackathon requiere código open-source.
 
 > [!TIP]
 >
-> **Probá ahora:** cloná [beHuman][repo-link] → validá tu identidad en testnet → publicá bajo seudónimo → recorré el feed de humanos reales. Una persona real. Una sola vez. Identidad humana, verificable y privada, simple de usar y sobre Stellar.
+> **Probá ahora:** cloná [human][repo-link] → validá tu identidad en testnet → publicá bajo seudónimo → recorré el feed de humanos reales. Una persona real. Una sola vez. Identidad humana, verificable y privada, simple de usar y sobre Stellar.
 
-[app-link]: https://github.com/ACRC-Zk/beHuman#-quickstart
-[app-shield]: https://img.shields.io/badge/app-beHuman-0EA5E9?labelColor=0A0A0A&style=flat-square&logo=react&logoColor=white
+[app-link]: https://github.com/ACRC-Zk/human#-quickstart
+[app-shield]: https://img.shields.io/badge/app-human-0EA5E9?labelColor=0A0A0A&style=flat-square&logo=react&logoColor=white
 
 [github-link]: https://github.com/ACRC-Zk
 [github-shield]: https://img.shields.io/badge/org-ACRC--Zk-0EA5E9?labelColor=0A0A0A&style=flat-square&logo=github&logoColor=white
 
-[repo-link]: https://github.com/ACRC-Zk/beHuman
-[github-star]: https://img.shields.io/github/stars/ACRC-Zk/beHuman?color=0EA5E9&labelColor=0A0A0A&style=flat-square&logo=github
+[repo-link]: https://github.com/ACRC-Zk/human
+[github-star]: https://img.shields.io/github/stars/ACRC-Zk/human?color=0EA5E9&labelColor=0A0A0A&style=flat-square&logo=github
 
 [pitch-deck-link]: https://github.com/ACRC-Zk
 [pitch-deck-shield]: https://img.shields.io/badge/pitch%20deck-view-0EA5E9?labelColor=0A0A0A&style=flat-square&logo=googleslides&logoColor=white
@@ -202,7 +202,7 @@ Pendiente de definir por repositorio. Hackathon requiere código open-source.
 [stellar-link]: https://stellar.org
 [stellar-shield]: https://img.shields.io/badge/built%20on-Stellar-0EA5E9?labelColor=0A0A0A&style=flat-square&logo=stellar&logoColor=white
 
-[pulso-link]: https://github.com/ACRC-Zk/beHuman
+[pulso-link]: https://github.com/ACRC-Zk/human
 [pulso-shield]: https://img.shields.io/badge/hackathon-PULSO%202026-0EA5E9?labelColor=0A0A0A&style=flat-square
 
 [contract-link]: https://stellar.expert/explorer/testnet
