@@ -116,7 +116,18 @@ Usuario verificado (ZK)
 
 El foco inicial es local: documento argentino, entrevistas con usuarios de la región, español primero y onboarding sin exigir experiencia previa con wallets.
 
-**Pitch deck:** [PDF](../docs/human-pitch.pdf) · [HTML](../docs/human-pitch.html) · [ver en web][pitch-web-link]
+### 📎 Recursos
+
+| Recurso | Link |
+| :--- | :--- |
+| Repositorio | [behuman-org/human][repo-link] |
+| Pitch (web) | [human-pitch.html][pitch-web-link] |
+| Pitch (PDF) | [human-pitch.pdf][pitch-pdf-link] |
+| Pitch (repo) | [docs/ en .github][pitch-repo-link] |
+| Banner | [assets/banner.png][banner-link] |
+| Entrevistas | [Google Drive][interviews-link] |
+
+**Pitch deck:** [PDF][pitch-pdf-link] · [HTML][pitch-html-link] · [ver en web][pitch-web-link]
 
 ### 🎯 Qué hace diferente a human
 
@@ -240,6 +251,10 @@ Pendiente de definir por repositorio. Hackathon requiere código open-source.
 [pitch-deck-link]: https://behuman-org.github.io/.github/human-pitch.html
 [pitch-web-link]: https://behuman-org.github.io/.github/human-pitch.html
 [pitch-pdf-link]: https://github.com/behuman-org/.github/blob/main/docs/human-pitch.pdf
+[pitch-html-link]: https://github.com/behuman-org/.github/blob/main/docs/human-pitch.html
+[pitch-repo-link]: https://github.com/behuman-org/.github/tree/main/docs
+[banner-link]: https://github.com/behuman-org/.github/blob/main/assets/banner.png
+[interviews-link]: PEGA_TU_LINK_DE_DRIVE_ENTREVISTAS
 [pitch-deck-shield]: https://img.shields.io/badge/pitch%20deck-view-0EA5E9?labelColor=0A0A0A&style=flat-square&logo=googleslides&logoColor=white
 
 [stellar-link]: https://stellar.org
