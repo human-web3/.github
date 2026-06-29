@@ -13,7 +13,7 @@
 
 </div>
 
-### 👋 Bienvenidos a ACRC-Zk
+### 👋 Bienvenidos a human
 
 Estamos construyendo **human** - la comunidad donde personas **reales y verificadas** dicen lo que no se animan a decir con su nombre, bajo un **seudónimo anónimo** que protege tu identidad real por diseño.
 
@@ -160,7 +160,7 @@ No te pedimos plata. Te pedimos tu opinión.
 3. **Danos feedback** - qué falla, qué falta, a quién se lo recomendarías.
 
 ```bash
-git clone https://github.com/ACRC-Zk/human.git && cd human
+git clone https://github.com/behuman-org/human.git && cd human
 npm install
 npm run dev                    # web en http://localhost:5173
 make contracts-build         # contratos Soroban
@@ -187,22 +187,22 @@ Pendiente de definir por repositorio. Hackathon requiere código open-source.
 >
 > **Probá ahora:** cloná [human][repo-link] → validá tu identidad en testnet → publicá bajo seudónimo → recorré el feed de humanos reales. Una persona real. Una sola vez. Identidad humana, verificable y privada, simple de usar y sobre Stellar.
 
-[app-link]: https://github.com/ACRC-Zk/human#-quickstart
+[app-link]: https://github.com/behuman-org/human#-quickstart
 [app-shield]: https://img.shields.io/badge/app-human-0EA5E9?labelColor=0A0A0A&style=flat-square&logo=react&logoColor=white
 
-[github-link]: https://github.com/ACRC-Zk
-[github-shield]: https://img.shields.io/badge/org-ACRC--Zk-0EA5E9?labelColor=0A0A0A&style=flat-square&logo=github&logoColor=white
+[github-link]: https://github.com/behuman-org
+[github-shield]: https://img.shields.io/badge/org-behuman--org-0EA5E9?labelColor=0A0A0A&style=flat-square&logo=github&logoColor=white
 
-[repo-link]: https://github.com/ACRC-Zk/human
-[github-star]: https://img.shields.io/github/stars/ACRC-Zk/human?color=0EA5E9&labelColor=0A0A0A&style=flat-square&logo=github
+[repo-link]: https://github.com/behuman-org/human
+[github-star]: https://img.shields.io/github/stars/behuman-org/human?color=0EA5E9&labelColor=0A0A0A&style=flat-square&logo=github
 
-[pitch-deck-link]: https://github.com/ACRC-Zk
+[pitch-deck-link]: https://github.com/behuman-org
 [pitch-deck-shield]: https://img.shields.io/badge/pitch%20deck-view-0EA5E9?labelColor=0A0A0A&style=flat-square&logo=googleslides&logoColor=white
 
 [stellar-link]: https://stellar.org
 [stellar-shield]: https://img.shields.io/badge/built%20on-Stellar-0EA5E9?labelColor=0A0A0A&style=flat-square&logo=stellar&logoColor=white
 
-[pulso-link]: https://github.com/ACRC-Zk/human
+[pulso-link]: https://github.com/behuman-org/human
 [pulso-shield]: https://img.shields.io/badge/hackathon-PULSO%202026-0EA5E9?labelColor=0A0A0A&style=flat-square
 
 [contract-link]: https://stellar.expert/explorer/testnet
