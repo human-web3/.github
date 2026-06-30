@@ -9,5 +9,5 @@ Material de presentación y recursos del proyecto **human**.
 | Pitch (HTML en repo) | [human-pitch.html](./human-pitch.html) |
 | Banner | [assets/banner.png](https://github.com/behuman-org/.github/blob/main/assets/banner.png) |
 | Repositorio | [behuman-org/human](https://github.com/behuman-org/human) |
-| Entrevistas | [Google Drive](PEGA_TU_LINK_DE_DRIVE_ENTREVISTAS) |
+| Entrevistas | [Google Drive](https://drive.google.com/drive/folders/1dyrhxCRQqN-e5cEXwbeAY4mAXQvFu46S) |
 | BUIDL (hackathon) | [BUIDL.md](./BUIDL.md) |
